@@ -1,0 +1,139 @@
+/* * {
+  margin: 0;
+}
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  background: red;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 0px;
+  text-align: center;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: yellowgreen;
+}
+
+p {
+  background-color: blue;
+  padding: 40px;
+  padding: 30px 60px;
+  text-align: center;
+  margin: -50px;
+  padding: 40px;
+  border: 20px double #d0bcd5;
+  border-radius: 20px;
+} */
+
+/* .links {
+  margin: 48px;
+}
+
+a {
+  background-color: #689f3f;
+  text-decoration: none;
+  padding: 100px, 100px;
+  color: #222;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid #222;
+}
+
+#two {
+  display: inline-block;
+  font-weight: bold;
+  outline: 0.2rem solid #222;
+  outline-offset: 4px;
+  cursor: alias;
+} */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f1f5f9;
+}
+
+.card {
+  background-color: #fff;
+  /* padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem; */
+  /* padding: 24px 32px; */
+  padding: 1.5rem 2rem;
+  text-align: center;
+  max-width: 300px;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  margin: 3rem auto;
+}
+
+.card-1 {
+  border-color: #ff69a6;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background: #ff69a6;
+  /* margin-top: 0.5rem; */
+}
+
+.title {
+  letter-spacing: 2px;
+}
+
+.text {
+  line-height: 1.5;
+  color: grey;
+  /* margin-right: 1rem;
+  margin-left: 1rem; */
+}
+
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.btn-pink {
+  color: #ff69a6;
+  background: #ffe8f1;
+}
+
+.btn-blue {
+  color: #ecf4ff;
+  background: #68a3ff;
+}
+
+.card-2 .icon {
+  background: #68a3ff;
+  /* margin-top: 0.5rem; */
+}
+
+.card-2 {
+  border-color: #68a3ff;
+}
