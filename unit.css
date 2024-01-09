@@ -1,0 +1,76 @@
+/* h1 {
+  font-size: 60px;
+  background-color: blue;
+  color: white;
+  width: 1000px;
+  height: 800px;
+} */
+
+/* .outer {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+}
+
+.inner {
+  background-color: red;
+  width: 100%;
+  height: 50%;
+} */
+
+/* div {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+.realtive {
+  font-size: 2em;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: greenyellow;
+  width: 100vw;
+  height: 90vh;
+}
+
+.about {
+  background: blue;
+  height: 43vh;
+  width: 54vw;
+}
+
+h1 {
+  color: tomato;
+} */
+* {
+  margin: 0;
+}
+
+.navbar {
+  background: blue;
+  height: 6rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner {
+  background-color: red;
+  height: calc(100vh - 6rem);
+}
+
+.example {
+  background-color: green;
+  width: 10rem;
+  height: 25rem;
+  /* overflow: hidden; */
+  overflow: scroll;
+}
