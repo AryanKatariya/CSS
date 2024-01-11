@@ -1,0 +1,58 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-heading {
+  font-family: "Trade Winds", cursive;
+  size: 50px;
+  color: violet;
+  text-align: center;
+}
+
+.sub-heading {
+  font-style: oblique;
+}
+
+.one {
+  font-weight: 900;
+  text-align: center;
+}
+
+.two {
+  font-weight: 700;
+  font-style: italic;
+} */
+
+a {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+body {
+  line-height: 1;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-decoration: line-through;
+  color: aqua;
+}
+
+.one {
+  line-height: 2;
+  letter-spacing: 0.5rem;
+  text-decoration: overline;
+}
+
+.two {
+  word-spacing: 10px;
+  text-transform: lowercase;
+}
+
+.three {
+  text-transform: capitalize;
+}
