@@ -1,0 +1,82 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 33.33%;
+  float: right;
+  padding: 40px;
+}
+
+.one {
+  background-color: blue;
+}
+.two {
+  background-color: green;
+}
+.three {
+  background-color: red;
+}
+.four {
+  background-color: yellow;
+  width: 50%;
+}
+.five {
+  background-color: coral;
+  width: 50%;
+} */
+/* .navbar {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+} */
+
+.navbar {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  position: sticky;
+  margin-top: 0;
+  top: 0;
+  width: 100vw;
+  text-align: center;
+}
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+}
+
+.container {
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+.one {
+  background: blue;
+  color: white;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+
+.two {
+  background: green;
+  color: white;
+}
+
+.special {
+  background-color: pink;
+  font-size: 20px;
+  color: #222;
+}

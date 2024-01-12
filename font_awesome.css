@@ -1,0 +1,43 @@
+/* .fa-home {
+  color: green;
+}
+.simple-icon {
+  color: red;
+}
+.social-icon {
+  font-size: 4rem;
+  color: #f12025;
+} */
+
+/* h1 {
+  text-shadow: -4px -3px 3px rgba(114, 0, 255, 0.65);
+  font-size: 5rem;
+  color: darkblue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 3px 5px 5px rgba(203, 118, 0, 0.87);
+  transition: 5s ease-in-out;
+  transition-property: box-shadow;
+  transition-duration: 3s;
+}
+
+.box:hover {
+  box-shadow: -23px 23px 30px -2px rgba(203, 118, 0, 0.87);
+  -webkit-box-shadow: -23px 23px 30px -2px rgba(203, 118, 0, 0.87);
+  -moz-box-shadow: -23px 23px 30px -2px rgba(203, 118, 0, 0.87);
+} */
+
+.navbar {
+  background: red;
+  font-size: 2rem;
+}
+
+nav {
+  background: blue;
+  font-size: 2rem;
+}
