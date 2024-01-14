@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 100vh;
+  color: snow;
+  border: 2px solid rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.big-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(./pexels-elviss-railijs-bitāns-1389429.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.3),
+      rgba(255, 100, 239, 0.5)
+    ),
+    url(./retro.jpg);
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+}
+
+.folder-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./image/pexels-ashutosh-sonwani-1762578.jpg) center/cover fixed;
+  /* background-position: center;
+    background-size: cover;
+    background-size: contain;
+  background-attachment: fixed; */
+}
+
+/* div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+.one {
+  background: linear-gradient(orange, yellow);
+}
+.two {
+  background: linear-gradient(red, orange, yellow);
+}
+.three {
+  background: linear-gradient(red, #f15025, orange, yellow);
+}
+.four {
+  background: linear-gradient(to left, red, #f15025, orange, yellow);
+}
+.five {
+  background: linear-gradient(to top left, red, #f15025, orange, yellow);
+}
+.six {
+  background: linear-gradient(300deg, red, #f15025, orange, yellow);
+}
+.seven {
+  background: linear-gradient(blue 50%, yellow 50%);
+} */
