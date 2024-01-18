@@ -1,0 +1,44 @@
+:root {
+  --body-bg: #333;
+  --btn-bg: rgb(255, 255, 255, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--body-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.menu input {
+  display: none;
+  visibility: hidden;
+}
+
+.btns {
+  position: relative;
+  display: flex;
+  padding: 30px 30px;
+  border: 1px solid #18283c;
+  background-color: var(--btn-bg);
+  gap: 80px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.btns label {
+  width: 20%;
+  font-size: 1.75rem;
+  -webkit-text-stroke: 1px solid #fff;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
