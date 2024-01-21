@@ -7,7 +7,7 @@
 body {
   display: flex;
   min-height: 100vh;
-  background-image: url(./image/Blue_Night_Sky_Vector_art.jpg);
+  background-image: url(./image/img.jpg);
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
@@ -110,11 +110,13 @@ body {
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
   border: none;
   outline: none;
+  transition: all 0.3s;
 }
 
 .container .btn:hover {
-  background-color: #9e5086;
+  background-color: #330a6a;
   color: #fff;
+  scale: 1.1;
 }
 
 .container .register-link {
